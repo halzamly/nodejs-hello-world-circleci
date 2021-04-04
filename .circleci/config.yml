@@ -20,6 +20,6 @@ workflows:
   node-tests:
     jobs:
       - node/test
-      - print-hello
-      - print-world:
+      - print_hello
+      - print_world:
           requires: [print_hello]
